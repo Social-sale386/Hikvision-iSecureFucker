@@ -1,6 +1,6 @@
 # iSecueFucker
 
-iSecueFucker 是一个面向 **海康威视教育综合安防管理平台 iSecure Center** 的 API 测试工具，目标是把 AK/SK 鉴权调试流程做成可视化、可复用、可持续迭代的工程化项目。
+iSecueFucker 是一个面向 **海康威视教育综合安防管理平台 iSecure Center** 的 API 测试工具，目标是把 AK/SK 鉴权调试流程做成可视化、可复用、可持续迭代的工程化项目。好用的话给个star吧🙏~ 🥺
 
 ## 项目定位
 
