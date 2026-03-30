@@ -37,11 +37,11 @@ iSecueFucker 是一个面向 **海康威视教育综合安防管理平台 iSecur
 
 ```text
 iSecureFucker/
-├─ isecure_tool/                  # 主程序代码
-├─ doc/                           # 格式化后的 API 文档数据
-├─ main.py                        # 程序入口
-├─ requirements.txt               # 依赖列表
-└─ isecure_tool_config.example.ini# 示例配置（不含敏感信息）
+├─ isecure_tool/                   # 主程序
+├─ doc/                            # API文档数据
+├─ main.py                         # 程序入口
+├─ requirements.txt                # 依赖列表
+└─ isecure_tool_config.example.ini # 示例配置
 ```
 
 ## 快速开始
